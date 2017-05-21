@@ -1,0 +1,216 @@
+/*Новый формат таблиц*/
+.pages_table_block{
+	position: absolute;
+	width: 370px;
+	height: 30px;
+	padding-left: 7px;
+	padding-top: 7px;
+}
+
+.table_stat-new tr:hover {
+    background-color: #fdf6d4 !important;
+}
+
+.pages_table_block a{
+	/*padding-left: 4px;*/
+}
+
+.pages_table_block span{
+	margin-left: 10px;
+	font-size: 12px;
+}
+
+.stat-container-new{
+	clear: both;
+	box-shadow: 0 3px 1px -2px rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12);
+	background-color: #fff;
+	z-index: 0;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.header-container-new{
+	margin-top: 5px;
+	background-color: #fff; 
+	margin-bottom: 0px;
+	overflow-x: hidden;
+	/*padding-right: 14px; */
+}
+
+.stat_header-new b {
+	font-family: OpenSans, sans-serif !important;
+	font-weight: 600;
+}
+.stat_header-new a{
+	font-weight: 600;
+	color:black;
+	text-decoration:none;
+	font-family: OpenSans, sans-serif !important;
+}
+.stat_header-new a:hover{
+	border-bottom: 2px solid #43A047;
+}
+.stat_header-new {
+	height: 30px; 
+	vertical-align: bottom;
+	border-collapse: collapse;
+	padding: 0;
+	width: 100%;
+	color: #000;
+	font-family: OpenSans, sans-serif !important;
+	font-size: 12px;
+	margin-top: 0px;
+}
+.stat_header-new td {
+	padding: 7px 3px 4px 10px;
+	border:none;
+	/*padding-right: 14px;*/
+	/*text-align:right;*/
+	border-bottom: 1px solid #e0e0e0;
+	/* border-left: 1px solid #e0e0e0; */
+}
+
+.body-container-new{
+	overflow-y:auto;
+}
+
+/*.body-container-new {
+	height: 0px;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	margin-top: 0px;
+	padding-top: 0px; 
+	margin-left: 0px;
+	z-index: -1;
+}*/ 
+
+.table_stat-new tr td {font-family: Arial,sans-serif;padding: 7px 3px 4px 10px;}
+
+.table_stat-new {
+	position: relative;
+	border-collapse: collapse;
+	padding: 0;
+	width: 100%;
+	color: #000;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	margin-top: 0px;
+	padding-top: 0px !important;
+	min-width: 600px;
+	z-index: 0;
+	height:auto !important;
+}
+
+.table_stat-new tr {
+	border-bottom: 1px solid #e0e0e0;
+}
+
+/*.table_stat-new tr td:last-child { padding-right: 10px;}*/
+
+.footer-container-new {
+    margin-right: 14px;
+    border-left: 3px solid #fff;
+}
+
+.stat_footer-new {
+    height: 38px;
+    vertical-align: bottom;
+    border-collapse: collapse;
+    padding: 0;
+    width: 100%;
+    color: #000;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    margin-top: 0px;
+	border-top:1px solid #e0e0e0;
+}
+
+/*форматы*/
+.td_int_1{
+	min-width:40px;
+}
+.td_varchar_1{
+	min-width:100px;
+}
+
+.row_camp_name{
+	min-width:250px;
+}
+
+/*индивидуальная подстройка таблиц*/
+.page_Clicklog.column_click_ID{
+	min-width:43px;
+}
+
+.page_Clicklog.column_device_resolution{
+	min-width:110px;
+}
+
+.page_Clicklog.column_display_size{
+	min-width:68px;
+}
+
+.page_Clicklog.column_external_ID{
+	min-width:64px;
+}
+
+.page_Clicklog.column_LP_click{
+	min-width:43px;
+}
+
+.page_Clicklog.column_conversion_status{
+	min-width:105px;
+}
+
+.checkbox_group_edit_column {
+	position:relative;
+	/*padding-left:25px;*/
+}
+.checkbox_group_edit_column input[type=checkbox] {
+	display:none;
+}
+.checkbox_group_edit_column label:after {
+	content:'';
+	display:block;
+	height:10px;
+	width:10px;
+	border:1px solid #D0D0D0;
+	position:absolute;
+	top:1px;
+	left:0;
+	cursor:pointer;
+	border-radius:3px;
+	margin-top:3px;
+}
+
+.checkbox_group_edit_column label{
+	cursor:pointer;
+}
+
+.tr_edit_column:hover{
+	background-color:#fdf6d4!important;
+}
+
+.checkbox_group_edit_column input[type=checkbox]:checked + label:after {
+	border:1px solid #D0D0D0;
+	border-radius:3px;
+	width:10px;
+	height:10px;
+	cursor:pointer;
+	background:url(../images/check_in_box.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size: 8px;
+}
+
+.checkbox_group_edit_column.checkbox_group_land label:after {
+    top:3px;
+}
+
+.checkbox_group_edit_column.checkbox_group_land input[type=checkbox]:disabled + label:after{
+    background: #eee;
+}
+
+.column_conversion {
+	min-width:66px;
+}

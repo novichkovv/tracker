@@ -1,0 +1,24 @@
+/*Statistics*/
+.table_stat tr.visible_row.gray_row{ background-color: #F5F5F5; }
+
+/*Coversions*/
+.conversion_table tr.cnv_row:nth-child(2n+1){background-color: #F5F5F5;}
+
+/*Reports*/
+.report_table tr:nth-child(2n+1){background-color: #F5F5F5;}
+
+/*Trends*/
+.trends-stats-table .table_stat tr:nth-child(2n+1){background-color: #F5F5F5;}
+
+/*Users*/
+.users_table.table_stat tr:nth-child(2n+1){background-color: #F5F5F5;}
+.report_table tbody tr:hover {background-color: #fdf6d4;}
+
+.table_stat tr.cnv_row:hover{
+    background-color: #fdf6d4;
+}
+
+/*новые таблицы*/
+.page_Clicklog .table_stat-new tr:nth-child(2n+1){
+	background-color: #F5F5F5;
+}
